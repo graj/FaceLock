@@ -18,7 +18,29 @@
 		D965F7D816E3D51F00D0AB86 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D965F7D716E3D51F00D0AB86 /* Default-568h@2x.png */; };
 		D965F7DB16E3D51F00D0AB86 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D965F7D916E3D51F00D0AB86 /* MainStoryboard.storyboard */; };
 		D965F7DE16E3D51F00D0AB86 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D965F7DD16E3D51F00D0AB86 /* ViewController.m */; };
+		D965F7E516E3D54600D0AB86 /* natalie.png in Resources */ = {isa = PBXBuildFile; fileRef = D965F7E416E3D54600D0AB86 /* natalie.png */; };
+		D965F7E716E3D5D900D0AB86 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D965F7E616E3D5D900D0AB86 /* CoreImage.framework */; };
+		D965F7E916E3D6F300D0AB86 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D965F7E816E3D6F300D0AB86 /* QuartzCore.framework */; };
+		D9EB0E5E16E3DD0A003FDCD3 /* girl.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D9EB0E5D16E3DD0A003FDCD3 /* girl.jpg */; };
+		D9EB0E6016E3DE35003FDCD3 /* girl2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D9EB0E5F16E3DE35003FDCD3 /* girl2.jpg */; };
+		D9EB0E6A16E3EA0A003FDCD3 /* okay@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D9EB0E6916E3EA0A003FDCD3 /* okay@2x.png */; };
+		D9EB0E6D16E3EB5E003FDCD3 /* kidin@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D9EB0E6B16E3EB5E003FDCD3 /* kidin@2x.png */; };
+		D9EB0E6E16E3EB5E003FDCD3 /* kidin.png in Resources */ = {isa = PBXBuildFile; fileRef = D9EB0E6C16E3EB5E003FDCD3 /* kidin.png */; };
+		D9EB0E7016E3EEA6003FDCD3 /* turma.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D9EB0E6F16E3EEA6003FDCD3 /* turma.jpg */; };
+		D9EB0E7216E409FE003FDCD3 /* okay.png in Resources */ = {isa = PBXBuildFile; fileRef = D9EB0E7116E409FE003FDCD3 /* okay.png */; };
+		D9EB0E7416E40D35003FDCD3 /* muieh.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D9EB0E7316E40D35003FDCD3 /* muieh.jpg */; };
+		D9EB0E7B16E40E4F003FDCD3 /* libMBProgressHUD.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D9EB0E7A16E40E40003FDCD3 /* libMBProgressHUD.a */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D9EB0E7916E40E40003FDCD3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D9EB0E7516E40E40003FDCD3 /* MBProgressHUD.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D286A7491518C70F00E13FB8;
+			remoteInfo = MBProgressHUD;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		D965F7BE16E3D51F00D0AB86 /* FaceLock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FaceLock.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -37,6 +59,18 @@
 		D965F7DA16E3D51F00D0AB86 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		D965F7DC16E3D51F00D0AB86 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		D965F7DD16E3D51F00D0AB86 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D965F7E416E3D54600D0AB86 /* natalie.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = natalie.png; sourceTree = "<group>"; };
+		D965F7E616E3D5D900D0AB86 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		D965F7E816E3D6F300D0AB86 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		D9EB0E5D16E3DD0A003FDCD3 /* girl.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = girl.jpg; sourceTree = "<group>"; };
+		D9EB0E5F16E3DE35003FDCD3 /* girl2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = girl2.jpg; sourceTree = "<group>"; };
+		D9EB0E6916E3EA0A003FDCD3 /* okay@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "okay@2x.png"; sourceTree = "<group>"; };
+		D9EB0E6B16E3EB5E003FDCD3 /* kidin@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "kidin@2x.png"; sourceTree = "<group>"; };
+		D9EB0E6C16E3EB5E003FDCD3 /* kidin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kidin.png; sourceTree = "<group>"; };
+		D9EB0E6F16E3EEA6003FDCD3 /* turma.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = turma.jpg; sourceTree = "<group>"; };
+		D9EB0E7116E409FE003FDCD3 /* okay.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = okay.png; sourceTree = "<group>"; };
+		D9EB0E7316E40D35003FDCD3 /* muieh.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = muieh.jpg; sourceTree = "<group>"; };
+		D9EB0E7516E40E40003FDCD3 /* MBProgressHUD.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = MBProgressHUD.xcodeproj; path = "FaceLock/MBProgressHUD-master/MBProgressHUD.xcodeproj"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +78,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D9EB0E7B16E40E4F003FDCD3 /* libMBProgressHUD.a in Frameworks */,
+				D965F7E916E3D6F300D0AB86 /* QuartzCore.framework in Frameworks */,
+				D965F7E716E3D5D900D0AB86 /* CoreImage.framework in Frameworks */,
 				D965F7C216E3D51F00D0AB86 /* UIKit.framework in Frameworks */,
 				D965F7C416E3D51F00D0AB86 /* Foundation.framework in Frameworks */,
 				D965F7C616E3D51F00D0AB86 /* CoreGraphics.framework in Frameworks */,
@@ -56,9 +93,12 @@
 		D965F7B516E3D51F00D0AB86 = {
 			isa = PBXGroup;
 			children = (
+				D965F7E816E3D6F300D0AB86 /* QuartzCore.framework */,
+				D965F7E616E3D5D900D0AB86 /* CoreImage.framework */,
 				D965F7C716E3D51F00D0AB86 /* FaceLock */,
 				D965F7C016E3D51F00D0AB86 /* Frameworks */,
 				D965F7BF16E3D51F00D0AB86 /* Products */,
+				D9EB0E7516E40E40003FDCD3 /* MBProgressHUD.xcodeproj */,
 			);
 			sourceTree = "<group>";
 		};
@@ -83,6 +123,15 @@
 		D965F7C716E3D51F00D0AB86 /* FaceLock */ = {
 			isa = PBXGroup;
 			children = (
+				D9EB0E6F16E3EEA6003FDCD3 /* turma.jpg */,
+				D9EB0E6B16E3EB5E003FDCD3 /* kidin@2x.png */,
+				D9EB0E6C16E3EB5E003FDCD3 /* kidin.png */,
+				D9EB0E7116E409FE003FDCD3 /* okay.png */,
+				D9EB0E6916E3EA0A003FDCD3 /* okay@2x.png */,
+				D9EB0E5F16E3DE35003FDCD3 /* girl2.jpg */,
+				D965F7E416E3D54600D0AB86 /* natalie.png */,
+				D9EB0E7316E40D35003FDCD3 /* muieh.jpg */,
+				D9EB0E5D16E3DD0A003FDCD3 /* girl.jpg */,
 				D965F7D016E3D51F00D0AB86 /* AppDelegate.h */,
 				D965F7D116E3D51F00D0AB86 /* AppDelegate.m */,
 				D965F7D916E3D51F00D0AB86 /* MainStoryboard.storyboard */,
@@ -105,6 +154,14 @@
 				D965F7D716E3D51F00D0AB86 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D9EB0E7616E40E40003FDCD3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D9EB0E7A16E40E40003FDCD3 /* libMBProgressHUD.a */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -146,12 +203,28 @@
 			mainGroup = D965F7B516E3D51F00D0AB86;
 			productRefGroup = D965F7BF16E3D51F00D0AB86 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = D9EB0E7616E40E40003FDCD3 /* Products */;
+					ProjectRef = D9EB0E7516E40E40003FDCD3 /* MBProgressHUD.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				D965F7BD16E3D51F00D0AB86 /* FaceLock */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		D9EB0E7A16E40E40003FDCD3 /* libMBProgressHUD.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libMBProgressHUD.a;
+			remoteRef = D9EB0E7916E40E40003FDCD3 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		D965F7BC16E3D51F00D0AB86 /* Resources */ = {
@@ -163,6 +236,15 @@
 				D965F7D616E3D51F00D0AB86 /* Default@2x.png in Resources */,
 				D965F7D816E3D51F00D0AB86 /* Default-568h@2x.png in Resources */,
 				D965F7DB16E3D51F00D0AB86 /* MainStoryboard.storyboard in Resources */,
+				D965F7E516E3D54600D0AB86 /* natalie.png in Resources */,
+				D9EB0E5E16E3DD0A003FDCD3 /* girl.jpg in Resources */,
+				D9EB0E6016E3DE35003FDCD3 /* girl2.jpg in Resources */,
+				D9EB0E6A16E3EA0A003FDCD3 /* okay@2x.png in Resources */,
+				D9EB0E6D16E3EB5E003FDCD3 /* kidin@2x.png in Resources */,
+				D9EB0E6E16E3EB5E003FDCD3 /* kidin.png in Resources */,
+				D9EB0E7016E3EEA6003FDCD3 /* turma.jpg in Resources */,
+				D9EB0E7216E409FE003FDCD3 /* okay.png in Resources */,
+				D9EB0E7416E40D35003FDCD3 /* muieh.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,6 +345,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FaceLock/FaceLock-Prefix.pch";
 				INFOPLIST_FILE = "FaceLock/FaceLock-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -274,6 +357,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FaceLock/FaceLock-Prefix.pch";
 				INFOPLIST_FILE = "FaceLock/FaceLock-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -298,6 +382,7 @@
 				D965F7E316E3D51F00D0AB86 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
